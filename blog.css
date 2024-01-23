@@ -1,10 +1,15 @@
 #prof-hockey{
-    margin-left: -27px;
+    margin-left: -20px;
 }
 #circle{
     display: flex;
     padding-left: 20px;
-    
+}
+.program-section{
+    text-align: center;
+    font-family: Manrope;
+    font-size: 36px;
+    font-weight: 800;
 }
 
 /* For small device */
@@ -15,7 +20,14 @@
         width: 280px;
         height: 50px;
         gap: 40px;
-        padding-left: 80px;
+        padding-left: 130px;
     }
+    #hr-line{
+        margin-top: 750px;
+    } 
+    .program{
+        margin-top: 50px;
+    }
+    
     
 }
