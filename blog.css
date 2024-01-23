@@ -11,6 +11,19 @@
     font-size: 36px;
     font-weight: 800;
 }
+#image-card1, #image-card2{
+    width: 500px;
+}
+#image-card3, #image-4{
+    width:1020px;
+    height:300px;
+}
+.card-title{
+    padding-top: 60px;
+}
+.card-class{
+    padding-right: 450px;
+}
 
 /* For small device */
 @media screen and (max-width: 576px) {
@@ -28,6 +41,18 @@
     .program{
         margin-top: 50px;
     }
-    
+    .program-section{
+        font-size: 22px;
+    }
+    /* #image-card3{
+        width: 400px;
+        height: 300px;
+        padding-right: 100px;
+    }
+    #image-4{
+        max-height: 300px;
+        width: 600px;
+    }
+     */
     
 }
