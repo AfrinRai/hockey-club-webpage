@@ -1,0 +1,21 @@
+#prof-hockey{
+    margin-left: -27px;
+}
+#circle{
+    display: flex;
+    padding-left: 20px;
+    
+}
+
+/* For small device */
+@media screen and (max-width: 576px) {
+    #circle{
+        flex-direction: column;
+        align-items: center;
+        width: 280px;
+        height: 50px;
+        gap: 40px;
+        padding-left: 80px;
+    }
+    
+}
