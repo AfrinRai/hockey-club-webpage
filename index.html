@@ -8,6 +8,9 @@
     <!-- Pure css -->
     <link rel="stylesheet" href="blog.css">
 
+    <!-- font-awesome -->
+    <script src="https://kit.fontawesome.com/c675b7b978.js" crossorigin="anonymous"></script>
+
     <!-- tailwind css and daisyUI -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -68,22 +71,22 @@
         <hr class="mx-18 my-8">
         <div class="lg:space-x-32  text-center" id="circle">
             <div>
-                <div class="radial-progress text-red-600" style="--value:87;" role="progressbar">87%</div>
+                <div class="radial-progress text-red-600" style="--value:87;" role="progressbar"><span class="text-black font-extrabold">87%</span></div>
                 <h4 class="font-semibold text-xl lg:w-32">Prayer Facility</h4>
                 <p class="text-gray-clr">Providing a dedicated space. </p>
             </div>
             <div>
-                <div class="radial-progress text-green-500" style="--value:95;" role="progressbar">95%</div>
+                <div class="radial-progress text-green-500" style="--value:95;" role="progressbar"><span class="text-black font-extrabold">95%</span></div>
                 <h4 class="font-semibold text-xl lg:w-48">Experienced Coach</h4>
                 <p class="text-gray-clr">Bring insights into effective strategies.</p>
             </div>
             <div>
-                <div class="radial-progress text-yellow-500" style="--value:90;" role="progressbar">90%</div>
+                <div class="radial-progress text-yellow-500" style="--value:90;" role="progressbar"><span class="text-black font-extrabold">90%</span></div>
                 <h4 class="font-semibold text-xl lg:w-32">Senior Player</h4>
                 <p class="text-gray-clr">Seniors may serve as role models. </p>
             </div>
             <div>
-                <div class="radial-progress text-sky-600" style="--value:80;" role="progressbar">80%</div>
+                <div class="radial-progress text-sky-600" style="--value:80;" role="progressbar"><span class="text-black font-extrabold">80%</span></div>
                 <h4 class="font-semibold text-xl lg:w-40">Training Ground</h4>
                 <p class="text-gray-clr">The training ground is the physical space.</p>
             </div>
@@ -95,13 +98,13 @@
         </div>
         <hr class="mx-18 my-16">
 
-        <!-- Card portion -->
+        <!-- Background image Card portion -->
         <div class="grid lg:grid-cols-2 gap-6">
             <!-- card 1 -->
             <div class="card w-96 image-full" id="image-card1">
                 <figure><img src="images/2.png" alt="" /></figure>
                 <div class="card-body">
-                  <h2 class="card-title">Junior Program</h2>
+                  <h2 class="card-title1">Junior Program</h2>
                   <p> The Junior Program is typically designed for young players in their early teens or even younger.</p>
                   <div class="card-actions">
                     <button class="btn bg-btn-red border-red-600 text-white">Register Now!</button>
@@ -112,7 +115,7 @@
               <div class="card w-96 image-full" id="image-card2">
                 <figure><img src="images/3.png" alt="" /></figure>
                 <div class="card-body">
-                  <h2 class="card-title">Teenager Program</h2>
+                  <h2 class="card-title1">Teenager Program</h2>
                   <p>The Teenager Program is tailored for players in their mid to late teens, encompassing the age range of 14 to 18 years old.</p>
                   <div class="card-actions">
                     <button class="btn bg-btn-red border-red-600 text-white">Register Now!</button>
@@ -123,7 +126,7 @@
               <div class="card w-96 image-full" id="image-card3">
                 <figure><img id="image-4" src="images/4.png" alt="" /></figure>
                 <div class="card-body">
-                  <h2 class="card-title">Professional Program</h2>
+                  <h2 class="card-title1">Professional Program</h2>
                   <p class="card-class">The Professional Program is for elite players who have reached a high skill level and aspire to compete at the highest levels of the sport.</p>
                   <div class="card-actions">
                     <button class="btn bg-btn-red border-red-600 text-white">Register Now!</button>
@@ -131,6 +134,173 @@
                 </div>
               </div>
         </div>
+        <hr class="mx-18 my-16">
+        <div class="program">
+            <h2 class="program-section">Our New Products</h2>
+            <p class="text-center lg:px-48 text-gray-clr">Hockey Club introduces an innovative Smart Fan Jersey, a cutting-edge wearable technology designed to enhance the fan experience during games.</p>
+        </div>
+        <hr class="mx-18 my-16">
+
+        <!-- Small card new product portion  -->
+        <div class="grid lg:grid-cols-2 gap-6">
+            <!-- small card 1 -->
+            <div class="card card-side bg-base-100 border border-gray-300 px-3 lg:w-[500px]
+            lg:h-[218px] flex-col lg:flex-row">
+                <figure><img class="py-4" src="images/5.png" alt="Movie"/></figure>
+                <div class="card-body">
+                  <div class="flex">
+                    <img class="h-6 w-6" src="images/Frame.png" alt="">
+                    <p>5.0</p>
+                    <img class="h-6 w-6" src="images/Frame (1).png" alt="">
+                    <p>20</p>
+                    <img class="h-6 w-6" src="images/Frame (2).png" alt="">
+                    <p>200</p>
+                  </div>
+                  <div class="small-frame">
+                    <h2 class="card-title py-1">World Cup Flags Football</h2>
+                    <p class="py-2">Click this to place an order of this jacket.</p>
+                    <div class="flex flex-col lg:flex-row">
+                        <p class="text-btn-red text-base" id="price">Price - $22.00</p>
+                        <div class="flex gap-1">
+                            <img class="h-6 w-6 " src="images/Frame (1).svg" alt="">
+                            <p>Delivery Fee : Free</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!-- small card 2 -->
+            <div class="card card-side bg-base-100 border border-gray-300 px-3 lg:w-[500px]
+                lg:h-[218px] flex-col lg:flex-row">
+                <figure><img class="py-4" src="images/6.png" alt="Movie"/></figure>
+                <div class="card-body">
+                  <div class="flex">
+                    <img class="h-6 w-6" src="images/Frame.png" alt="">
+                    <p>5.0</p>
+                    <img class="h-6 w-6" src="images/Frame (1).png" alt="">
+                    <p>20</p>
+                    <img class="h-6 w-6" src="images/Frame (2).png" alt="">
+                    <p>200</p>
+                  </div>
+                  <div class="small-frame">
+                    <h2 class="card-title py-1">World Cup Flags Football</h2>
+                    <p class="py-2">Click this to place an order of this football.</p>
+                    <div class="flex flex-col lg:flex-row">
+                        <p class="text-btn-red text-base" id="price">Price - $22.00</p>
+                        <div class="flex gap-1">
+                            <img class="h-6 w-6 " src="images/Frame (1).svg" alt="">
+                            <p>Delivery Fee : Free</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!-- small card 3 -->
+            <div class="card card-side bg-base-100 border border-gray-300 px-3 lg:w-[500px]
+                lg:h-[218px] flex-col lg:flex-row">
+                <figure><img class="py-4" src="images/7.png" alt="Movie"/></figure>
+                <div class="card-body">
+                  <div class="flex">
+                    <img class="h-6 w-6" src="images/Frame.png" alt="">
+                    <p>5.0</p>
+                    <img class="h-6 w-6" src="images/Frame (1).png" alt="">
+                    <p>20</p>
+                    <img class="h-6 w-6" src="images/Frame (2).png" alt="">
+                    <p>200</p>
+                  </div>
+                  <div class="small-frame">
+                    <h2 class="card-title py-1">Cap For Hockeys</h2>
+                    <p class="py-2">Click this to place an order of this cap.</p>
+                    <div class="flex flex-col lg:flex-row">
+                        <p class="text-btn-red text-base" id="price">Price - $22.00</p>
+                        <div class="flex gap-1">
+                            <img class="h-6 w-6 " src="images/Frame (1).svg" alt="">
+                            <p>Delivery Fee : Free</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!-- small card 4 -->
+            <div class="card card-side bg-base-100 border border-gray-300 px-3 lg:w-[500px]
+                lg:h-[218px] flex-col lg:flex-row">
+                <figure><img class="py-4" src="images/8.png" alt="Movie"/></figure>
+                <div class="card-body">
+                  <div class="flex">
+                    <img class="h-6 w-6" src="images/Frame.png" alt="">
+                    <p>5.0</p>
+                    <img class="h-6 w-6" src="images/Frame (1).png" alt="">
+                    <p>20</p>
+                    <img class="h-6 w-6" src="images/Frame (2).png" alt="">
+                    <p>200</p>
+                  </div>
+                  <div class="small-frame">
+                    <h2 class="card-title py-1">World Cup Flags Football</h2>
+                    <p class="py-2">Click this to place an order of this t-shirt.</p>
+                    <div class="flex flex-col lg:flex-row">
+                        <p class="text-btn-red text-base" id="price">Price - $22.00</p>
+                        <div class="flex gap-1">
+                            <img class="h-6 w-6 " src="images/Frame (1).svg" alt="">
+                            <p>Delivery Fee : Free</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!-- small card 5 -->
+            <div class="card card-side bg-base-100 border border-gray-300 px-3 lg:w-[500px]
+                lg:h-[218px] flex-col lg:flex-row">
+                <figure><img class="py-4" src="images/9.png" alt="Movie"/></figure>
+                <div class="card-body">
+                  <div class="flex">
+                    <img class="h-6 w-6" src="images/Frame.png" alt="">
+                    <p>5.0</p>
+                    <img class="h-6 w-6" src="images/Frame (1).png" alt="">
+                    <p>20</p>
+                    <img class="h-6 w-6" src="images/Frame (2).png" alt="">
+                    <p>200</p>
+                  </div>
+                  <div class="small-frame">
+                    <h2 class="card-title py-1">World Cup Flags Football</h2>
+                    <p class="py-2">Click the to place an order of this helmet.</p>
+                    <div class="flex flex-col lg:flex-row">
+                        <p class="text-btn-red text-base" id="price">Price - $22.00</p>
+                        <div class="flex gap-1">
+                            <img class="h-6 w-6 " src="images/Frame (1).svg" alt="">
+                            <p>Delivery Fee : Free</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!-- small card 6 -->
+            <div class="card card-side bg-base-100 border border-gray-300 px-3 lg:w-[500px]
+                lg:h-[218px] flex-col lg:flex-row">
+                <figure><img class="py-4" src="images/10.png" alt="Movie"/></figure>
+                <div class="card-body">
+                  <div class="flex">
+                    <img class="h-6 w-6" src="images/Frame.png" alt="">
+                    <p>5.0</p>
+                    <img class="h-6 w-6" src="images/Frame (1).png" alt="">
+                    <p>20</p>
+                    <img class="h-6 w-6" src="images/Frame (2).png" alt="">
+                    <p>200</p>
+                  </div>
+                  <div class="small-frame">
+                    <h2 class="card-title py-1">World Cup Flags Football</h2>
+                    <p class="py-2">Click the to place an order of this football.</p>
+                    <div class="flex flex-col lg:flex-row">
+                        <p class="text-btn-red text-base" id="price">Price - $22.00</p>
+                        <div class="flex gap-1">
+                            <img class="h-6 w-6 " src="images/Frame (1).svg" alt="">
+                            <p>Delivery Fee : Free</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <hr class="mx-18 my-16">
     </main>
     <footer>
 

@@ -18,12 +18,16 @@
     width:1020px;
     height:300px;
 }
-.card-title{
+.card-title1{
     padding-top: 60px;
 }
 .card-class{
     padding-right: 450px;
 }
+
+#price{
+    margin-right: -5px; 
+} 
 
 /* For small device */
 @media screen and (max-width: 576px) {
@@ -54,5 +58,6 @@
         width: 600px;
     }
      */
+     
     
 }
