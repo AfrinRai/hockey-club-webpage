@@ -62,7 +62,7 @@
         width: 340px;
     }
     #image-card3{
-        width: 400px;
+        max-width: 400px;
         height: 300px;
         padding: -150px;
     }
