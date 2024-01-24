@@ -25,9 +25,9 @@
     padding-right: 450px;
 }
 
-#price{
-    margin-right: -5px; 
-} 
+/* #get-touch-img-1{
+    padding-left: -150px;
+} */
 
 /* For small device */
 @media screen and (max-width: 576px) {
