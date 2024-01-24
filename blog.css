@@ -48,34 +48,37 @@
     .program-section{
         font-size: 22px;
     }
-    /* #image-card3{
+    #image-card1, #image-card2{
+        width: 340px;
+    }
+    #image-card3{
         width: 400px;
         height: 300px;
         padding-right: 100px;
     }
-    #image-4{
+    /* #image-4{
         max-height: 300px;
         width: 600px;
-    }
-     */
+    } */
+    
     
     #get-in-touch{
         text-align: center;
         justify-items: center;
-        padding-left: 25px;
+        padding-left: 15px;
     }
     #service{
-        padding-left: 100px;
+        padding-left: 90px;
         text-align: center;
         justify-items: center;
     }
     #company{
-        padding-left: 10px;
+        padding-left: 5px;
         text-align: center;
         justify-items: center;
     }
     #support{
-        padding-left: 50px;
+        padding-left: 30px;
         text-align: center;
         justify-items: center;
     }
