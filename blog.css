@@ -30,9 +30,6 @@
     left: 400px;
 }
 
-/* #get-touch-img-1{
-    padding-left: -150px;
-} */
 
 /* For small device */
 @media screen and (max-width: 576px) {
@@ -64,13 +61,12 @@
     #image-card3{
         max-width: 400px;
         height: 300px;
-        padding: -150px;
+        margin-bottom: 240px;
     }
-    #image-4{
-        max-height: 300px;
-        width: 300px;
+    #card-last{
+        width: 250px;
+        height: 170px;
     }
-    
     
     #get-in-touch{
         text-align: center;
