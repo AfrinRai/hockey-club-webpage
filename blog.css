@@ -58,6 +58,26 @@
         width: 600px;
     }
      */
-     
+    
+    #get-in-touch{
+        text-align: center;
+        justify-items: center;
+        padding-left: 25px;
+    }
+    #service{
+        padding-left: 100px;
+        text-align: center;
+        justify-items: center;
+    }
+    #company{
+        padding-left: 10px;
+        text-align: center;
+        justify-items: center;
+    }
+    #support{
+        padding-left: 50px;
+        text-align: center;
+        justify-items: center;
+    }
     
 }

@@ -32,7 +32,8 @@
                     'light-gray': 'rgba(19, 19, 24, 0.03)',
                     'card-clr-1': 'rgba(188, 237, 109, 0.10)',
                     'card-clr-2': 'rgba(253, 221, 95, 0.10)',
-                    'card-clr-3': 'rgba(98, 156, 243, 0.10)'
+                    'card-clr-3': 'rgba(98, 156, 243, 0.10)',
+                    'white-clr': ' rgba(255, 255, 255, 0.60)'
                 }
             }
         }
@@ -384,9 +385,61 @@
                 </div>
             </form>
         </div>
+        <div class="lg:w-[1170px] lg:h-[150px] h-[160px] rounded-xl bg-light-gray text-center my-12">
+            <h3 class="font-extrabold py-8">Social Media</h3>
+            <div>
+                <i class="fa-brands fa-twitter px-4"></i>
+                <i class="fa-brands fa-facebook px-4"></i>
+                <i class="fa-brands fa-instagram px-4"></i>
+                <i class="fa-brands fa-github px-4"></i>
+            </div>
+        </div>
     </main>
-    <footer>
 
-    </footer>
+    <!-- Footer part -->
+    <footer class="footer p-10 bg-neutral text-white-clr">
+        <nav class="lg:text-center lg:px-10" id="get-in-touch">
+          <header class="footer-title">Get In Touch</header> 
+          <p class="w-[250px] h-[78px] lg:text-left">Remember, the key is to be respectful, clear, and considerate of the recipient's time and interests.
+          </p>
+          <div class="flex">
+            <img src="images/mail.png" alt="">
+            <p>hockeys@support.com</p>
+          </div>
+          <div class="flex">
+            <img src="images/phone.png" alt="">
+            <p>(+62) 123-321-543</p>
+          </div>
+        </nav> 
+        <nav class="grid grid-cols-2 lg:gap-36">
+            <nav id="company">
+                <header class="footer-title">Company</header> 
+                <nav class="grid grid-cols-1">
+                    <a class="link link-hover">About us</a>
+                    <a class="link link-hover">Leadership</a>
+                    <a class="link link-hover">Careers</a>
+                    <a class="link link-hover">News & articles</a>
+                    <a class="link link-hover">Legal notice</a>
+                </nav>
+            </nav> 
+            <nav id="support">
+                <header class="footer-title">Support</header> 
+                <nav class="grid grid-cols-1">
+                    <a class="link link-hover">Help center</a>
+                    <a class="link link-hover">FAQ</a>
+                    <a class="link link-hover">Ticket support</a>
+                    <a class="link link-hover">Contact us</a>
+                </nav>
+            </nav>
+        </nav>
+        <nav id="service">
+            <header class="footer-title">Services</header> 
+            <a class="link link-hover">Academy</a>
+            <a class="link link-hover">Group lesson</a>
+            <a class="link link-hover">Private lesson</a>
+            <a class="link link-hover">Hockeys for kids</a>
+            <a class="link link-hover">Hockeys for adult</a>
+          </nav>
+      </footer>
 </body>
 </html>
